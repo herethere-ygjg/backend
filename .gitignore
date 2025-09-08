@@ -1,28 +1,53 @@
-### Build ###
+### Help / Gradle ###
+HELP.md
+.gradle/
+build/
+out/
 /target/
-/build/
-/out/
-/.gradle/
 !gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+!**/src/main/**/out/
+!**/src/test/**/out/
 
-### IDE ###
+### STS (Spring Tool Suite) ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+bin/
+
+### IntelliJ IDEA ###
 .idea/
 *.iml
 *.ipr
 *.iws
-.classpath
-.project
-.settings/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
 
 ### Logs ###
 *.log
 *.out
+*.tmp
 
 ### OS / Editor ###
 .DS_Store
 Thumbs.db
 *.swp
 
-### Security / Config ###
+### Security / Config (샘플은 예외적으로 포함 권장) ###
 application-*.yml
 application-*.properties
