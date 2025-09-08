@@ -1,0 +1,28 @@
+### Build ###
+/target/
+/build/
+/out/
+/.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+### IDE ###
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+
+### Logs ###
+*.log
+*.out
+
+### OS / Editor ###
+.DS_Store
+Thumbs.db
+*.swp
+
+### Security / Config ###
+application-*.yml
+application-*.properties
