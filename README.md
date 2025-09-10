@@ -51,13 +51,13 @@ server.port=8080
 ```
 src/
  ├─ main/
- │   ├─ java/com/herethere/backend/
- │   │    ├─ controller/
- │   │    ├─ service/
- │   │    ├─ repository/
- │   │    └─ entity/
+ │   ├─ java/com/herethere/
+ │   │    ├─ controller/ # 해당 기능명 + controller.java로 작명
+ │   │    ├─ service/ # 해당 기능명 + service.java로 작명
+ │   │    ├─ repository/ # 해당 기능명 + repository.java로 작명
+ │   │    └─ entity/ # 테이블별로 하나씩 구현 필수
  │   └─ resources/
- │        ├─ application.yml
+ │        ├─ application.properties  
  │        └─ static/
  └─ test/
  ```
