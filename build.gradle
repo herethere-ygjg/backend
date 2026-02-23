@@ -10,7 +10,7 @@ description = '맛집 지도 공유 프로젝트입니다.'
 
 java {
 	toolchain {
-		languageVersion = JavaLanguageVersion.of(17)
+		languageVersion = JavaLanguageVersion.of(21)
 	}
 }
 
