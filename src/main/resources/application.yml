@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active: local # 로컬 실행 시 기본값으로 설정
+    group:
+      local: local
+      dev: dev
+      prod: prod
+  application:
+    name: hereThere
+
+# K8s/K3s 파이프라인 Liveness & Readiness Probe (헬스 체크) 통과용
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
